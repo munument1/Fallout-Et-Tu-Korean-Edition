@@ -209,3 +209,5 @@ Fallout2/Fallout1in2/mods/fo1_base/text/english/dialog/STIMPACK.MSG
 **/__pycache__/
 *.pyc
 /korean-speech-report/
+/korean-dist/
+/korean-candidate-dist/
