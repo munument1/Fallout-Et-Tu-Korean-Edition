@@ -14,6 +14,7 @@
 | DECKER (데커) | 번역 수정·정적 검증 완료, 실게임 검증 보류 | 216 | 120 | korean/reviews/DECKER-20261017.md |
 | KANE (케인) | 번역 수정·정적 검증 완료, 실게임 검증 보류 | 364 | 93 | korean/reviews/KANE-20261017.md |
 | BUTCH (부치) | 번역 수정·정적 검증 완료, 실게임 검증 보류 | 339 | 122 | korean/reviews/BUTCH-20261017.md |
+| RUTGER (룻거) | 번역 수정·정적 검증 완료, 실게임 검증 보류 | 215 | 110 | korean/reviews/RUTGER-20261017.md |
 | 나머지 NPC 전원 | 미검수 | 0 | 0 | - |
 
 7명의 원문, NPC와 플레이어의 SSL 발화 구분, 변경 전후 ID별 상세내용은 korean/reviews/ 아래의 각 NPC 검수 보고서 참조.
@@ -34,9 +35,9 @@
 
 ## 다음 검수 작업 (중단·채팅 이동 인계)
 
-1. 다음 대상은 **RUTGER (룻거)**. 기존 검수 인계문의 주요 말투 혼용 후보이며, Fallout2/Fallout1in2/data/text/korean/dialog/RUTGER.msg에 번역문이 있음.
-2. 영어 원본 Fallout2/Fallout1in2/mods/fo1_base/text/english/dialog/RUTGER.msg과 스크립트 Fallout2/Fallout1in2/Mapper/source/scripts/06hub/RUTGER.ssl을 우선 조사.
-3. review/butch-20261017 최신 커밋에서 review/rutger-...를 새로 분기. 10명의 수정이 누적된 상태를 유지하고 원본 추적용 master는 수정하지 않기.
+1. 다음 대상은 **DEMETRE (데메트르)**. 기존 검수 인계문의 주요 말투 혼용 후보이며, Fallout2/Fallout1in2/data/text/korean/dialog/DEMETRE.msg에 번역문이 있음.
+2. 영어 원본 Fallout2/Fallout1in2/mods/fo1_base/text/english/dialog/DEMETRE.msg과 스크립트 Fallout2/Fallout1in2/Mapper/source/scripts/06hub/DEMETRE.ssl을 우선 조사.
+3. review/rutger-20261017 최신 커밋에서 review/demetre-...를 새로 분기. 11명의 수정이 누적된 상태를 유지하고 원본 추적용 master는 수정하지 않기.
 4. 대사 화자와 분기 구분 → 영문 의미 및 말투 교정 → CP949/MSG ID/음성 태그/해시 및 물음표 손상 확인 → 오버레이 빌드/테스트 → 검수 보고서/커밋 순서로 진행.
 5. 전체 파일 인벤토리 참고: 현재 로컬 한국어 dialog 폴더에 MSG 1508개가 있으나 이는 NPC 1508명이나 같은 소스 계열 1508개라는 뜻이 아님. fo1_base 영어 대사 경로에 기록된 파일 수는 654개. 다른 소스 계열과 스크립트 없는 메시지도 포함되어 있어 정확한 원문 대응은 파일별 조사해야 함.
 6. **기술적 주의:** Windows PowerShell에서 한글 Python 코드를 표준입력으로 보낼 때 OutputEncoding을 UTF-8로 설정하지 않으면 한글이 물음표로 치환될 수 있음. 단순 CP949 테스트가 이 손상을 잡지 못하므로 원본 대비 물음표 개수와 실제 한글 출력도 검사할 것.
@@ -64,3 +65,10 @@
 - 누적 **10명, 1,882개 MSG ID 대조, 743개 ID 번역 수정**. 이 수치는 전체 전수 검수 완료를 의미하지 않음.
 - 다음 인물은 같은 파 고 트레이더스 부치의 오른팔 룻거(RUTGER). 영문 MSG/한국어 MSG 및 06hub/RUTGER.ssl이 Git에 존재함.
 - 정식 배포/기준 브랜치 병합 금지, 실게임 테스트 및 다른 NPC 검수 필요.
+
+## 룻거 후속 인계 (2026-10-17)
+
+- 룻거(RUTGER) 영어/한국어 MSG 215개, SSL 1007행, NPC 직접 80개·플레이어 120개 ID 대조. 보수 400/500/800캡, 홀로디스크/브라더후드, 워터 머천트/물 배달, 실종 캐러밴 분기 위주 번역 110개 수정.
+- 기존 10명 교정을 유지한 누적 **11명, 2,097개 MSG ID 대조, 853개 실제 번역 ID 수정**. 아직 전체 NPC 전수 검수 완료 아님.
+- 다음은 크림슨 캐러밴의 데메트르(DEMETRE), 한국어/영어 MSG 및 06hub/DEMETRE.ssl 존재 확인. 상인단 내부 인물명 및 실종 캐러밴 이야기 교차 검증 권장.
+- 실게임 퀘스트·대화 테스트는 미실시. 원본 master/한국어 기준 브랜치·공개 릴리스 미변경.
