@@ -9,7 +9,7 @@
 | CABBOT (카봇) | 번역 수정·자동 검증, 실게임 테스트 보류 | 182 | 76 | korean/reviews/CABBOT-20261017.md |
 | VREE (브리) | 번역 수정·정적 검증, 실게임 검증 보류 | 149 | 72 | korean/reviews/VREE-20261017.md |
 | JAIN (제인) | 번역 수정·정적 검증, 실게임 확인 보류 | 117 | 60 | korean/reviews/JAIN-20261017.md |
-| CALDER (칼더) | 미검수 | 0 | 0 | - |
+| CALDER (칼더) | 번역 수정·정적 검증, 실게임 확인 보류 | 109 | 43 | korean/reviews/CALDER-20261017.md |
 | BRENDEN (브렌든) | 미검수 | 0 | 0 | - |
 | 나머지 NPC 전원 | 미검수 | 0 | 0 | - |
 
