@@ -208,3 +208,4 @@ Fallout2/Fallout1in2/mods/fo1_base/text/english/dialog/STIMPACK.MSG
 /korean-report/
 **/__pycache__/
 *.pyc
+/korean-speech-report/
