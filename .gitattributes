@@ -9,3 +9,9 @@
 *.msg  text eol=lf
 *.ssl  text eol=lf linguist-language=Pascal
 *.h    text eol=lf
+
+## Korean game data: preserve exact CP949 bytes, original line endings, whitespace
+**/text/korean/** -text -diff -eol -working-tree-encoding
+**/translations/korean.ini -text -diff -eol -working-tree-encoding
+**/premade/*.bio -text -diff -eol -working-tree-encoding
+**/PREMADE/*.bio -text -diff -eol -working-tree-encoding
