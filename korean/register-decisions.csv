@@ -1,3 +1,4 @@
 speaker_file,target_register,context_exception_ids,reviewed_by,reviewed_at,notes
 ARADESH.msg,하오체 기본; 친밀하거나 개인적 부탁에서 하게체 허용,152;168;227,GPT-6 / 영어 MSG·SSL 대조,2026-10-17,"MSG 214개 대조, 83개 수정; korean/reviews/ARADESH-20261017.md; 실게임 미검증"
 TANDI.msg,반말/해체 기본; 납치 중 낯선 상대 존대 허용,183;350;402,GPT-6 / 영어 MSG·SSL 대조,2026-10-17,"MSG 164개 대조, 60개 수정; korean/reviews/TANDI-20261017.md; 실게임 미검증"
+CABBOT.msg,"해요체 기본, 공식 안내에서 하십시오체 예외 허용",공식 접객/출입 안내,GPT-6 / 영어 MSG·SSL 대조,2026-10-17,"MSG 182개 전수 확인, 76개 수정; korean/reviews/CABBOT-20261017.md; 실게임 미검증"
