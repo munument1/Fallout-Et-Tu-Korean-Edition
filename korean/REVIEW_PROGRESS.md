@@ -7,7 +7,7 @@
 | ARADESH (아라데쉬) | 번역 수정·정적 검증, 실게임 테스트 보류 | 214 | 83 | korean/reviews/ARADESH-20261017.md |
 | TANDI (탠디) | 번역 수정·정적 검증, 실게임 테스트 보류 | 164 | 60 | korean/reviews/TANDI-20261017.md |
 | CABBOT (카봇) | 번역 수정·자동 검증, 실게임 테스트 보류 | 182 | 76 | korean/reviews/CABBOT-20261017.md |
-| VREE (브리) | 미검수 | 0 | 0 | - |
+| VREE (브리) | 번역 수정·정적 검증, 실게임 검증 보류 | 149 | 72 | korean/reviews/VREE-20261017.md |
 | JAIN (제인) | 미검수 | 0 | 0 | - |
 | CALDER (칼더) | 미검수 | 0 | 0 | - |
 | BRENDEN (브렌든) | 미검수 | 0 | 0 | - |
