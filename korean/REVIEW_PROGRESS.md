@@ -11,6 +11,7 @@
 | JAIN (제인) | 번역 수정·정적 검증, 실게임 확인 보류 | 117 | 60 | korean/reviews/JAIN-20261017.md |
 | CALDER (칼더) | 번역 수정·정적 검증, 실게임 확인 보류 | 109 | 43 | korean/reviews/CALDER-20261017.md |
 | BRENDEN (브렌든) | 번역 수정·정적 검증, 실게임 확인 보류 | 28 | 14 | korean/reviews/BRENDEN-20261017.md |
+| DECKER (데커) | 번역 수정·정적 검증 완료, 실게임 검증 보류 | 216 | 120 | korean/reviews/DECKER-20261017.md |
 | 나머지 NPC 전원 | 미검수 | 0 | 0 | - |
 
 7명의 원문, NPC와 플레이어의 SSL 발화 구분, 변경 전후 ID별 상세내용은 korean/reviews/ 아래의 각 NPC 검수 보고서 참조.
@@ -31,11 +32,18 @@
 
 ## 다음 검수 작업 (중단·채팅 이동 인계)
 
-1. 다음 대상은 **DECKER (데커)**. 기존 검수 인계문의 주요 말투 혼용 후보이며, Fallout2/Fallout1in2/data/text/korean/dialog/DECKER.msg에 번역문이 있음.
-2. 영어 원본 Fallout2/Fallout1in2/mods/fo1_base/text/english/dialog/DECKER.msg과 스크립트 Fallout2/Fallout1in2/Mapper/source/scripts/06hub/DECKER.ssl을 우선 조사.
-3. review/brenden-20261017 최신 커밋에서 review/decker-...를 새로 분기. 7명의 수정이 누적된 상태를 유지하고 원본 추적용 master는 수정하지 않기.
+1. 다음 대상은 **KANE (케인)**. 기존 검수 인계문의 주요 말투 혼용 후보이며, Fallout2/Fallout1in2/data/text/korean/dialog/KANE.msg에 번역문이 있음.
+2. 영어 원본 Fallout2/Fallout1in2/mods/fo1_base/text/english/dialog/KANE.msg과 스크립트 Fallout2/Fallout1in2/Mapper/source/scripts/06hub/KANE.ssl을 우선 조사.
+3. review/decker-20261017 최신 커밋에서 review/kane-...를 새로 분기. 8명의 수정이 누적된 상태를 유지하고 원본 추적용 master는 수정하지 않기.
 4. 대사 화자와 분기 구분 → 영문 의미 및 말투 교정 → CP949/MSG ID/음성 태그/해시 및 물음표 손상 확인 → 오버레이 빌드/테스트 → 검수 보고서/커밋 순서로 진행.
 5. 전체 파일 인벤토리 참고: 현재 로컬 한국어 dialog 폴더에 MSG 1508개가 있으나 이는 NPC 1508명이나 같은 소스 계열 1508개라는 뜻이 아님. fo1_base 영어 대사 경로에 기록된 파일 수는 654개. 다른 소스 계열과 스크립트 없는 메시지도 포함되어 있어 정확한 원문 대응은 파일별 조사해야 함.
 6. **기술적 주의:** Windows PowerShell에서 한글 Python 코드를 표준입력으로 보낼 때 OutputEncoding을 UTF-8로 설정하지 않으면 한글이 물음표로 치환될 수 있음. 단순 CP949 테스트가 이 손상을 잡지 못하므로 원본 대비 물음표 개수와 실제 한글 출력도 검사할 것.
 
 현재 우선순위 7명은 *번역 수정과 정적 검증 단계만* 완료. 나머지 대사와 전체 실게임 검수·정식 배포는 미완료.
+
+## 데커 후속 추가 검수 기록 (2026-10-17)
+
+- 8번째 NPC 데커: 영어/한국어 216 MSG, 실제 120개 ID 수정. 기본 하게체, 동적 이름 조합과 청부살인 분기 및 2인자/그린 보안관 오역 교정.
+- 누적: **8명 / 1,179개 MSG ID 대조 / 528개 ID 번역 수정**. 초기 7명 요약은 위 별도 항목과 구분하며, 나머지 NPC는 미검수.
+- 다음은 같은 허브의 케인(KANE). 영문 MSG, 한국어 MSG, 06hub/KANE.ssl 실제 존재를 Git 트리에서 확인함.
+- 실게임 분기/최종 전체 검수 미완료, 기준 한국어 브랜치·Nexus·정식 릴리스 미변경.
