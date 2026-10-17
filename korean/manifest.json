@@ -1186,8 +1186,8 @@
     {
       "path": "Fallout2/Fallout1in2/data/text/korean/dialog/ARADESH.msg",
       "zip_path": "data/text/korean/dialog/ARADESH.msg",
-      "sha256": "06ca6232cc7e2055eb8c2910ead4b660d3db7fac354f4c021d296261b309936a",
-      "bytes": 12404
+      "sha256": "58dd3c44c587ff1ba9c0c8b629775ca9561a23734568feb982f5c90d36a337d6",
+      "bytes": 14332
     },
     {
       "path": "Fallout2/Fallout1in2/data/text/korean/dialog/ARMOR.msg",
@@ -7642,8 +7642,8 @@
     {
       "path": "Fallout2/Fallout1in2/data/text/korean/dialog/TANDI.msg",
       "zip_path": "data/text/korean/dialog/TANDI.msg",
-      "sha256": "b2e57225e5da9f86842b2410d3d9d5edddbfadfba3b819278849523ed987e328",
-      "bytes": 10481
+      "sha256": "e609c468fc2bf7a59c0301e9271a42f461861cf2940fb138f2c3b8bb35db455c",
+      "bytes": 11379
     },
     {
       "path": "Fallout2/Fallout1in2/data/text/korean/dialog/TAYLOR.msg",
